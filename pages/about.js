@@ -8,7 +8,7 @@ import Helmet from 'components/helmet';
 const About = () => (
   <DefaultLayout>
     <Helmet
-      title={'About roadmap.sh'}
+      title={'About Startup.js.org'}
     />
     <SiteNav />
     <AboutHeader />
