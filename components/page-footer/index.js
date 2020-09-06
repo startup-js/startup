@@ -16,9 +16,9 @@ const PageFooter = () => (
             </div>
             <p className='meta-links'>
               &copy; startup.js.org &middot;
-              {/*&nbsp; <a href="/about">FAQ</a> &middot;*/}
-              {/*&nbsp; <a href="/terms">Terms</a> &middot;*/}
-              {/*&nbsp; <a href="/privacy">Privacy</a>*/}
+              &nbsp; <a href="/about">FAQ</a> &middot;
+              &nbsp; <a href="/terms">Terms</a> &middot;
+              &nbsp; <a href="/privacy">Privacy</a>
             </p>
           </div>
         </div>
