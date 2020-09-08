@@ -34,7 +34,7 @@ const RoadmapsList = () => (
         title={PageTitle}
         subtitle={PageDescription}>
         <BadgesList className="mt-4">
-          <BadgeLink href={siteConfig.url.addRoadmap} target="_blank">
+          <BadgeLink href={siteConfig.url.contribute} target="_blank">
             <SecondaryBadge>
               <FontAwesomeIcon icon={faCodeBranch}/>
               Submit an Article
