@@ -36,7 +36,7 @@ const Privacy = () => (
             other third party sites. If you provide your third-party account credentials to us or otherwise sign in to the Services through a third party site or service, you understand some content and/or information in those accounts (“Third Party Account Information”) may be transmitted into your account with us if you authorize such
             transmissions], and that Third Party Account Information transmitted to our Services is covered by this Privacy Policy. Certain information may be required to register with us or to take advantage of some of our features.</p>
           <p>We may communicate with you if you’ve provided us the means to do so. For example, if you’ve given us your email address, we may send you promotional email offers on behalf of other businesses, or email you about your use of the Services. Also, we may receive a confirmation when you open an email from us. This confirmation
-            helps us make our communications with you more interesting and improve our services. If you do not want to receive communications from us, please email us at <a href="mailto:kamran@Startup.js">kamran@Startup.js</a>.</p>
+            helps us make our communications with you more interesting and improve our services. If you do not want to receive communications from us, please email us at <a href="mailto:startup.js.org@gmail.com">startup.js.org@gmail.com</a>.</p>
 
           <h2>Information Collected Automatically</h2>
           <p>Whenever you interact with our Services, we automatically receive and record information on our server logs from your browser or device, which may include your IP address, geolocation data, device identification, “cookie” information, the type of browser and/or device you’re using to access our Services, and the page or
@@ -90,20 +90,20 @@ const Privacy = () => (
             <li>age or birthday</li>
             <li>username</li>
           </ul>
-          <p>The information you can view, update, and delete may change as the Services change. If you have any questions about viewing or updating information we have on file about you, please contact us at <a href="mailto:kamran@Startup.js">kamran@Startup.js</a>.</p>
+          <p>The information you can view, update, and delete may change as the Services change. If you have any questions about viewing or updating information we have on file about you, please contact us at <a href="mailto:startup.js.org@gmail.com">startup.js.org@gmail.com</a>.</p>
           <p>Under California Civil Code Sections 1798.83-1798.84, California residents are entitled to ask us for a notice identifying the categories of Personal Information which we share with our affiliates and/or third parties for marketing purposes, and providing contact information for such affiliates and/or third parties. If you
             are
-            a California resident and would like a copy of this notice, please submit a written request to: <a href="mailto:kamran@Startup.js">kamran@Startup.js</a>.</p>
+            a California resident and would like a copy of this notice, please submit a written request to: <a href="mailto:startup.js.org@gmail.com">startup.js.org@gmail.com</a>.</p>
 
           <h2>What choices do I have?</h2>
           <p>You can always opt not to disclose information to us, but keep in mind some information may be needed to register with us or to take advantage of some of our features.</p>
-          <p>You may be able to add, update, or delete information as explained above. When you update information, however, we may maintain a copy of the unrevised information in our records. You may request deletion of your account by contacting us at <a href="mailto:kamran@Startup.js">kamran@Startup.js</a> and we will disassociate
+          <p>You may be able to add, update, or delete information as explained above. When you update information, however, we may maintain a copy of the unrevised information in our records. You may request deletion of your account by contacting us at <a href="mailto:startup.js.org@gmail.com">startup.js.org@gmail.com</a> and we will disassociate
             our
             email address and Twitter account from any content or other information provided to us. Some information may remain in our records after your deletion of such information from your account. We may use any aggregated data derived from or incorporating your Personal Information after you update or delete it, but not in a manner
             that would identify you personally.</p>
 
           <h2>What if I have questions about this policy?</h2>
-          <p>If you have any questions or concerns regarding our privacy policies, please send us a detailed message to <a href="mailto:kamran@Startup.js">kamran@Startup.js</a>, and we will try to resolve your concerns.</p>
+          <p>If you have any questions or concerns regarding our privacy policies, please send us a detailed message to <a href="mailto:startup.js.org@gmail.com">startup.js.org@gmail.com</a>, and we will try to resolve your concerns.</p>
         </div>
       </div>
       <PageFooter />
