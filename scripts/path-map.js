@@ -3,7 +3,6 @@ const glob = require('glob');
 const fs = require('fs');
 
 const roadmaps = require('../content/roadmaps.json');
-const guides = require('../content/guides.json');
 
 const PAGES_PATH = path.join(__dirname, '../pages');
 const ROADMAPS_PATH =  path.join(__dirname, '../content/roadmaps');
@@ -33,23 +32,6 @@ const getPageRoutes = () => {
   });
 
   return pageRoutes;
-};
-
-/**
- * Generates routes for guide pages
- * @returns {*}
- */
-const getGuideRoutes = () => {
-  return guides.reduce((acc, guide) => {
-    const [, , slug] = guide.url.split('/');
-    return {
-      ...acc,
-      [guide.url]: {
-        page: '/guides/[guide]',
-        query: slug,
-      },
-    };
-  }, {});
 };
 
 /**
@@ -97,13 +79,11 @@ const getRoadmapRoutes = () => {
  */
 const getPathMap = () => () => ({
   ...getPageRoutes(),
-  ...getGuideRoutes(),
   ...getRoadmapRoutes(),
 });
 
 module.exports = {
   getPageRoutes,
-  getGuideRoutes,
   getRoadmapRoutes,
   getPathMap,
 };
