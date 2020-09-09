@@ -1,9 +1,10 @@
 // This is a development script executed in the build step of pages
 const fs = require('fs');
 const path = require('path');
-const guides = require('../content/guides');
-const roadmaps = require('../content/roadmaps');
-const { getPageRoutes, getGuideRoutes } = require('./path-map');
+const ROADMAPS_PATH = path.join(__dirname, '../content/roadmaps');
+const roadmaps = fs.readdirSync(ROADMAPS_PATH);
+
+const { getPageRoutes } = require('./path-map');
 
 const DOMAIN = 'https://startup.js.org';
 const PAGES_DIR = path.join(__dirname, '../pages');
@@ -27,9 +28,6 @@ const getSlugPriority = (pageSlug) => {
   const slugPriorities = [
     [
       '/roadmaps',
-      '/guides',
-      '/watch',
-      '/podcasts'
     ], // 1.0
     ['/signup'], // 0.9
     ['/about'], // 0.8
@@ -88,20 +86,6 @@ function generateSiteMap() {
     });
   });
 
-  // Chunks for each of the guides
-  const guideRoutes = getGuideRoutes();
-  const guideSlugs = Object.keys(guideRoutes);
-  const guidesChunk = guideSlugs.map(guideSlug => {
-    const foundGuide = guides.find(guide => guide.url === guideSlug) || {};
-    return generateNode({
-      basePath: STORAGE_PATH,
-      fileName: `${guideSlug}.md`,
-      slug: guideSlug,
-      date: foundGuide.updatedAt,
-      priority: '1.0',
-    });
-  });
-
   // Chunks for each of the roadmaps
   const roadmapsChunk = roadmaps.reduce((roadmapsNodes, roadmap) => {
     return [
@@ -132,7 +116,6 @@ function generateSiteMap() {
 
   const nodes = [
     ...roadmapsChunk,
-    ...guidesChunk,
     ...pagesChunk,
   ];
 
